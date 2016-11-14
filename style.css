@@ -1,0 +1,102 @@
+body
+{
+	background-color: #1a1a1a;
+	color: #ffffff;
+	font-size: 28px;
+	font-family: 'Inconsolata';
+}
+
+#pojemnik
+{
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+
+	
+}
+
+#plansza
+{
+	width: 900px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	min-height: 100px;
+	font-size: 36px;
+
+}
+
+#obrazek
+{
+	float: left;
+	width: 450px;
+	min-height: 300px;
+	padding: 10px 0px;
+}
+
+#panel
+{
+	float: left;
+	width: 450px;
+	min-height: 300px;
+	text-align: center;
+}
+
+#plansza2
+{
+	width: 900px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	min-height: 100px;
+
+}
+
+#skucia
+{
+	width: 450px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	min-height: 100px;
+	font-size: 24px;
+	float: left;
+}
+#nav
+{
+	width: 450px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	min-height: 100px;
+	font-size: 24px;
+	float: left;
+}
+.litera
+{
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
+	border: 3px solid gray;
+	float: left;
+	cursor: pointer;
+	border-radius: 15px;
+	font-size: 28px;
+}
+.litera:hover
+{
+	border: 3px solid lightgray;
+}
+
+.reset
+{
+	color: #006600;
+	line-height: 200%
+}
+
+.reset:hover
+{
+	cursor: pointer;
+	color:  #00cc00;
+	
+	
+}
