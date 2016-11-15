@@ -170,7 +170,12 @@ function sprawdz(nr)
 	}
 	if (skucia == 10)
 	{
-		document.getElementById("panel").innerHTML = "Koniec!<br/> Odgadłeś w sumie "+odgadniecia+" flag"+'<br/><br/>Spróbuj poprawić wynik<br/><span class="reset" onclick="location.reload()">Zagraj jeszcze raz!</span>'
+		var flaga = "flaga";
+		if (odgadniecia == 0 || odgadniecia>=5) flaga = "flag";
+		if (odgadniecia == 1) flaga = "flagę";
+		if (odgadniecia >=2 && odgadniecia <=4) flaga = "flagi";
+		
+		document.getElementById("panel").innerHTML = "Koniec!<br/> Odgadłeś w sumie "+odgadniecia+" "+flaga+'<br/><br/>Spróbuj poprawić wynik<br/><span class="reset" onclick="location.reload()">Zagraj jeszcze raz!</span>'
 		
 		
 		

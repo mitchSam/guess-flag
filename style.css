@@ -15,13 +15,20 @@ body
 
 	
 }
+#pytanie
+{
+	width: 900px;
+	margin-top: 50px;
+	min-height: 50px;
+	font-size: 36px;
 
+}
 #plansza
 {
 	width: 900px;
 	margin-top: 50px;
 	margin-bottom: 50px;
-	min-height: 100px;
+	min-height: 50px;
 	font-size: 36px;
 
 }
