@@ -175,7 +175,7 @@ function sprawdz(nr)
 		if (odgadniecia == 1) flaga = "flagę";
 		if (odgadniecia >=2 && odgadniecia <=4) flaga = "flagi";
 		
-		document.getElementById("panel").innerHTML = "Koniec!<br/> Odgadłeś w sumie "+odgadniecia+" "+flaga+'<br/><br/>Spróbuj poprawić wynik<br/><span class="reset" onclick="location.reload()">Zagraj jeszcze raz!</span>'
+		document.getElementById("panel").innerHTML = "Ostatnie hasło to "+haslo+"<br/> Odgadłeś w sumie "+odgadniecia+" "+flaga+'<br/><br/>Spróbuj poprawić wynik<br/><span class="reset" onclick="location.reload()">Zagraj jeszcze raz!</span>'
 		
 		
 		
